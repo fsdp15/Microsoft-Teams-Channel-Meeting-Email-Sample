@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.12",
+  "version": "1.0.0",
+  "id": "<<YOUR-MICROSOFT-APP-ID>>",
+  "packageName": "com.example.contoso",
+  "developer": {
+    "name": "Felipe Dotti",
+    "websiteUrl": "https://github.com/fsdp15",
+    "privacyUrl": "https://github.com/fsdp15",
+    "termsOfUseUrl": "https://github.com/fsdp15"
+  },
+  "name": {
+    "short": "Channel Meeting Bot",
+    "full": "Teams Channel Meeting Bot Application"
+  },
+  "description": {
+    "short": "Samples of scheduling a meeting with a bot in Teams",
+    "full": "Samples of scheduling a meeting with a bot in Teams, along with proactively sending an e-mail and message to each user"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "<<YOUR-MICROSOFT-APP-ID>>",
+      "needsChannelSelector": false,
+      "isNotificationOnly": false,
+      "scopes": [
+        "team",
+        "groupchat"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team",
+            "groupchat"
+          ],
+          "commands": [
+            {
+              "title": "Hello",
+              "description": "Display the Welcome Message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ]
+}

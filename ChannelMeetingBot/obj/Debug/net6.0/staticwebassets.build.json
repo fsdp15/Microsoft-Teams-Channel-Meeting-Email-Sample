@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "FxsB/QnO1yw4rqsVIPH7sc3Jfl69PPo6rUjU0idivGk=",
+  "Source": "ChannelMeetingBot",
+  "BasePath": "_content/ChannelMeetingBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChannelMeetingBot\\wwwroot",
+      "Source": "ChannelMeetingBot",
+      "ContentRoot": "C:\\Users\\felipedotti\\Documents\\Git\\Microsoft-Teams-Samples\\samples\\graph-proactive-installation\\csharp\\ChannelMeetingBot\\wwwroot\\",
+      "BasePath": "_content/ChannelMeetingBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\felipedotti\\Documents\\Git\\Microsoft-Teams-Samples\\samples\\graph-proactive-installation\\csharp\\ChannelMeetingBot\\wwwroot\\default.htm",
+      "SourceId": "ChannelMeetingBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\felipedotti\\Documents\\Git\\Microsoft-Teams-Samples\\samples\\graph-proactive-installation\\csharp\\ChannelMeetingBot\\wwwroot\\",
+      "BasePath": "_content/ChannelMeetingBot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
